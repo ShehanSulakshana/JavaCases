@@ -5,7 +5,7 @@ A collection of 7 Java programs implementing practical systems.
 ## Case Studies
 
 1. **Banking System**  
-   `BankingApplication.java`  
+   `BasicBankingApplication.java`  
    - Account management with balance checks
 
 2. **Employee Payroll**  
@@ -17,19 +17,19 @@ A collection of 7 Java programs implementing practical systems.
    - Product management with total calculation
 
 4. **Bookstore Inventory**  
-   `BookstoreSystem.java`  
+   `BookStoreSystem.java`  
    - Book tracking with search
 
 5. **Voting System**  
    `VotingSystem.java`  
    - Election simulation
 
-6. **Hospital Management**  
-   `HospitalManagementSystem.java`  
+6. **Inventory Management System**  
+   `InventoryManagementSystem.java`  
    - Patient record system
 
-7. **Library System**  
-   `LibrarySystem.java`  
+7. **Temp Convert**  
+   `TempConvert.java`  
    - Book lending/returning
 
 ## Usage
