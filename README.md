@@ -18,7 +18,7 @@ A collection of 7 Java programs implementing practical systems.
 
 4. **Bookstore Inventory**  
    `BookStoreSystem.java`  
-   - Book tracking with search
+   - Book tracking
 
 5. **Voting System**  
    `VotingSystem.java`  
@@ -26,7 +26,7 @@ A collection of 7 Java programs implementing practical systems.
 
 6. **Inventory Management System**  
    `InventoryManagementSystem.java`  
-   - Patient record system
+   - Inventory stock record system
 
 7. **Temp Convert**  
    `TempConvert.java`  
