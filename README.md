@@ -1,85 +1,83 @@
 # ☕ JavaCases
 
 ![Java](https://img.shields.io/badge/Java-21%2B-orange?style=flat&logo=java)
-![License](https://img.shields.io/badge/License-MIT-green?style=flat)
 
-A collection of Java case studies demonstrating OOP, basic system design, and practical coding patterns. Each folder under `src/` is a small, self-contained example you can compile and run.
-
----
-
-## 📁 Project Structure (high-level)
-
-- `src/` — all Java source files and package folders
-- `CasePDF/` — PDF descriptions and case materials
-
-Key modules:
-- `src/CityHospital/` — hospital staffing & patient examples (package `CityHospital`)
-- `src/CityPublicLibrary/` — simple library system
-- `src/ShopEasy/` — product & digital product examples
-- `src/SmartRetailBillingSystem/` — packaged billing system under its own `src/` folder
-- `src/UniversityCourseRegSystem/` — course registration example
-- `src/VideoGameInventorySystem/` — inventory and item/weapon examples
-- Top-level examples: `BasicBankingApplication.java`, `EmployeePayrollSystem.java`, `BookStoreSystem.java`, `ShoppingCartSystem.java`, `VotingSystem.java`, `TempConvert.java`, etc.
+Welcome — this repo collects small, easy-to-run Java projects you can read, compile, and learn from. Each example focuses on one idea (OOP, simple systems, or I/O) so you can explore concepts one case at a time.
 
 ---
 
-## 🚀 Quick Start / Run
+## What you'll find
 
-Two common setups are used in this repo: top-level (default package) programs and package-based modules.
+- Short, self-contained examples in `src/`
+- PDF case descriptions in `CasePDF/`
+- Small modules grouped by topic (hospital, library, retail, university, games)
 
-1) Top-level classes (no package)
-
-Compile a single file from the `src/` directory and run it directly. Example:
-
-```
-javac src/BasicBankingApplication.java
-java -cp src BasicBankingApplication
-```
-
-2) Package-based modules (have a `package` declaration)
-
-Compile the package sources into an output directory, then run the package-qualified main class. Example for `CityHospital`:
-
-```
-mkdir out
-javac -d out src/CityHospital/*.java
-java -cp out CityHospital.Main
-```
-
-Tip: You can compile a single module by targeting its folder; for the whole project consider using an IDE (IntelliJ/VS Code) which handles classpaths automatically.
+Examples are intentionally simple to read and modify — great for learning or small demos.
 
 ---
 
-## 🧾 Git / GitHub
+## Quick start (friendly)
 
-- To save and push this README change:
+Pick an example and run it. Two styles appear in this repo:
 
-```
+- Top-level programs (no `package`): compile the single file and run it from `src/`.
+
+	Example — run the banking app:
+
+	```bash
+	javac src/BasicBankingApplication.java
+	java -cp src BasicBankingApplication
+	```
+
+- Package-based examples (use a `package` line): compile the folder and run the package main class.
+
+	Example — run the CityHospital demo:
+
+	```bash
+	mkdir out
+	javac -d out src/CityHospital/*.java
+	java -cp out CityHospital.Main
+	```
+
+If you use an IDE (VS Code, IntelliJ) you can import the folder and run mains directly.
+
+---
+
+## Helpful notes
+
+- If a program reads input, run it from a terminal so you can type responses.
+- To compile many files at once, point `javac` at a folder or use `javac src/**/*.java` depending on your shell.
+
+---
+
+## Save changes to GitHub
+
+After editing `README.md` or code locally, run:
+
+```bash
 git add README.md
-git commit -m "docs: update README with overview and run instructions"
+git commit -m "docs: humanize README"
 git push
 ```
 
-- Repository description, topics, and a license badge can be set on GitHub web UI under the repository `Settings` → `General`.
+If `git push` fails because the branch has no upstream, run:
+
+```bash
+git push --set-upstream origin main
+```
 
 ---
 
-## 🧠 Concepts Covered
+## Contributing
 
-- Object-Oriented Programming (Classes, Objects, Inheritance)
-- Encapsulation & Data Hiding
-- Conditionals & Loops
-- Methods & Return Types
-- Simple system modeling and input/output handling
+Got a clearer example or fix? Send a PR or open an issue. Small improvements welcome.
 
 ---
 
-## 👨‍💻 Author
+## Author
 
-**Shehan Sulakshana**  
-Cybersecurity undergraduate | Java learner  
-[GitHub](https://github.com/ShehanSulakshana)
+**Shehan Sulakshana** — Cybersecurity undergraduate & Java learner
 
 ---
 
-*"Case by case, concept by concept."* 🚀
+Happy learning! 🚀
