@@ -81,3 +81,25 @@ Got a clearer example or fix? Send a PR or open an issue. Small improvements wel
 ---
 
 Happy learning! 🚀
+
+---
+
+## Files and where to run them (simple map)
+
+Below is a short, student-friendly map showing which file or folder contains each example and how to run the demo main when applicable.
+
+- `src/BasicBankingApplication.java` — Basic banking app (create accounts, deposit/withdraw/check balance). Run: `java -cp src BasicBankingApplication`
+- `src/EmployeePayrollSystem.java` — Employee payroll and salary calculation.
+- `src/BookStoreSystem.java` — Simple bookstore / stock tracking example.
+- `src/ShoppingCartSystem.java` — Shopping cart and total calculation.
+- `src/TempConvert.java` — Temperature conversion (C/F/K) utilities.
+- `src/VotingSystem.java` — Small voting simulation and vote counting.
+- `src/InventortyManagementSystem.java` — Inventory management example (note: filename has a small typo).
+- `src/CityHospital/` — Hospital examples (patients, staff, doctors, nurses). Run: `java -cp out CityHospital.Main` after compiling to `out`.
+- `src/CityPublicLibrary/` — Library system (books, members, items). Run: `java -cp out CityPublicLibrary.Main` after compiling to `out`.
+- `src/ShopEasy/` — Product and digital-product examples. Run: `java -cp src ShopEasy.Main` (if top-level) or compile folder then run its `Main`.
+- `src/SmartRetailBillingSystem/src/` — Small billing system examples (Billable, Product, ElectronicItem, FoodItem). Run the `Main` inside that folder after compiling.
+- `src/UniversityCourseRegSystem/` — Course registration and student examples.
+- `src/VideoGameInventorySystem/` — Game inventory and weapon/item examples. Run: `java -cp out VideoGameInventorySystem.Main` after compiling to `out`.
+
+These are short, clear examples meant for students to read and modify. If a folder has a `package` declaration, compile with `-d out` and run using the package-qualified `Main` class as shown above.
