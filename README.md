@@ -1,107 +1,70 @@
 # ☕ JavaCases
+> *" My Java journey, shared with Fellow Java learners "*
 
 ![Java](https://img.shields.io/badge/Java-21%2B-orange?style=flat&logo=java)
+![License](https://img.shields.io/badge/License-MIT-green?style=flat)
+![Cases](https://img.shields.io/badge/Case%20Studies-13-blue?style=flat)
 
-Welcome — this repo collects small, easy-to-run Java projects you can read, compile, and learn from. Each example focuses on one idea (OOP, simple systems, or I/O) so you can explore concepts one case at a time.
-
----
-
-## What you'll find
-
-- Short, self-contained examples in `src/`
-- PDF case descriptions in `CasePDF/`
-- Small modules grouped by topic (hospital, library, retail, university, games)
-
-Examples are intentionally simple to read and modify — great for learning or small demos.
+A collection of 13 Java case studies implementing real-world systems — covering OOP principles, business logic, and practical problem solving.
 
 ---
 
-## Quick start (friendly)
+## 📁 Case Studies
 
-Pick an example and run it. Two styles appear in this repo:
+| # | Case | File | Description |
+|---|---|---|---|
+| 1 | 🏦 Banking System | `BasicBankingApplication.java` | Account management with balance checks and transactions |
+| 2 | 👨‍💼 Employee Payroll | `EmployeePayrollSystem.java` | Salary calculation with overtime support |
+| 3 | 🛒 Shopping Cart | `ShoppingCartSystem.java` | Product management with total price calculation |
+| 4 | 📚 Bookstore Inventory | `BookStoreSystem.java` | Book stock tracking system |
+| 5 | 🗳️ Voting System | `VotingSystem.java` | Election simulation with vote counting |
+| 6 | 📦 Inventory Management | `InventoryManagementSystem.java` | Stock record and inventory control system |
+| 7 | 🌡️ Temperature Converter | `TempConvert.java` | Multi-scale temperature conversion tool |
+| 8 | 🏥 City Hospital Management | `src/CityHospital/Main.java` | Staff, patient, and treatment workflows using inheritance and encapsulation |
+| 9 | 📚 City Public Library | `src/CityPublicLibrary/Main.java` | Library catalog, member, and item management with OOP relationships |
+| 10 | 🛍️ ShopEasy E-Commerce | `src/ShopEasy/Main.java` | Product and digital product handling for a simple retail flow |
+| 11 | 🧾 Smart Retail Billing System | `src/SmartRetailBillingSystem/src/Main.java` | Billing logic with billable items and product specializations |
+| 12 | 🎓 University Course Registration | `src/UniversityCourseRegSystem/Main.java` | Student registration, reporting, and academic service workflows |
+| 13 | 🎮 Video Game Inventory System | `src/VideoGameInventorySystem/Main.java` | Inventory and item management for game equipment and weapons |
 
-- Top-level programs (no `package`): compile the single file and run it from `src/`.
-
-	Example — run the banking app:
-
-	```bash
-	javac src/BasicBankingApplication.java
-	java -cp src BasicBankingApplication
-	```
-
-- Package-based examples (use a `package` line): compile the folder and run the package main class.
-
-	Example — run the CityHospital demo:
-
-	```bash
-	mkdir out
-	javac -d out src/CityHospital/*.java
-	java -cp out CityHospital.Main
-	```
-
-If you use an IDE (VS Code, IntelliJ) you can import the folder and run mains directly.
+> 📄 PDF case descriptions are available in the `CasePDF/` folder, including the OOP case papers.
 
 ---
 
-## Helpful notes
+## 🧠 Concepts Covered
 
-- If a program reads input, run it from a terminal so you can type responses.
-- To compile many files at once, point `javac` at a folder or use `javac src/**/*.java` depending on your shell.
+- Object-Oriented Programming (Classes, Objects, Inheritance)
+- Encapsulation & Data Hiding
+- Conditionals & Loops
+- Methods & Return Types
+- Real-world business logic modelling
 
 ---
 
-## Save changes to GitHub
+## 🚀 Usage
 
-After editing `README.md` or code locally, run:
-
+**Compile:**
 ```bash
-git add README.md
-git commit -m "docs: humanize README"
-git push
+javac src/[FileName].java
 ```
 
-If `git push` fails because the branch has no upstream, run:
-
+**Run:**
 ```bash
-git push --set-upstream origin main
+java [FileName]
+```
+
+**Example:**
+```bash
+javac src/BasicBankingApplication.java
+java BasicBankingApplication
 ```
 
 ---
 
-## Contributing
+## 👨‍💻 Author
 
-Got a clearer example or fix? Send a PR or open an issue. Small improvements welcome.
-
----
-
-## Author
-
-**Shehan Sulakshana** — Cybersecurity undergraduate & Java learner
+[**Shehan Sulakshana**](https://github.com/ShehanSulakshana)
 
 ---
 
-Happy learning! 🚀
-
----
-
-## Files and related PDFs (simple table)
-
-Below is a short, student-level table showing each example and the matching PDF in `CasePDF/` (if available).
-
-| File / Folder | What it implements | Related PDF (in CasePDF/) |
-|---|---|---|
-| `src/BasicBankingApplication.java` | Basic banking app (accounts, deposit/withdraw) | `case 1.pdf` |
-| `src/EmployeePayrollSystem.java` | Employee payroll & salary calculations | `case 2.pdf` |
-| `src/BookStoreSystem.java` | Bookstore inventory & stock tracking | `case 3.pdf` |
-| `src/ShoppingCartSystem.java` | Shopping cart and total calculation | `case 4.pdf` |
-| `src/TempConvert.java` | Temperature converter (C/F/K) | `case 5.pdf` |
-| `src/VotingSystem.java` | Voting simulation & vote counting | `case 6.pdf` |
-| `src/InventortyManagementSystem.java` | Inventory management (note: filename typo) | `case 7.pdf` |
-| `src/CityHospital/` | Hospital examples (patients, staff, doctors, nurses) | `Java OOP Inventory System Exam.pdf` |
-| `src/CityPublicLibrary/` | Library system (books, members, items) | `Sample Practical Paper - AY 26-27.pdf` |
-| `src/ShopEasy/` | Product & digital product examples | (no dedicated PDF) |
-| `src/SmartRetailBillingSystem/src/` | Billing system (Billable, Product types) | (no dedicated PDF) |
-| `src/UniversityCourseRegSystem/` | Course registration & student examples | `COU4300 PDS - All Questions with Answers.pdf` |
-| `src/VideoGameInventorySystem/` | Game inventory & weapon/item examples | (no dedicated PDF) |
-
-If an example uses `package`, compile with `javac -d out` and run the package-qualified `Main`. For top-level files, run `java -cp src MainClassName`.
+> *"Case by case, concept by concept."* 🚀

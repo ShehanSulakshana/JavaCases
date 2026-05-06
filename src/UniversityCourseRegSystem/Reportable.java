@@ -1,4 +1,13 @@
 package UniversityCourseRegSystem;
 
-public class Reportable {
+//Q13
+public interface Reportable {
+
+
+    void generateReport();
+    void printReport();
+
+
+
+
 }

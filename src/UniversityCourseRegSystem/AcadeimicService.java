@@ -1,4 +1,10 @@
 package UniversityCourseRegSystem;
 
-public class AcadeimicService {
+public abstract class AcadeimicService {
+
+    abstract protected void generateService();
+
 }
+
+
+
