@@ -84,22 +84,24 @@ Happy learning! 🚀
 
 ---
 
-## Files and where to run them (simple map)
+## Files and related PDFs (simple table)
 
-Below is a short, student-friendly map showing which file or folder contains each example and how to run the demo main when applicable.
+Below is a short, student-level table showing each example and the matching PDF in `CasePDF/` (if available).
 
-- `src/BasicBankingApplication.java` — Basic banking app (create accounts, deposit/withdraw/check balance). Run: `java -cp src BasicBankingApplication`
-- `src/EmployeePayrollSystem.java` — Employee payroll and salary calculation.
-- `src/BookStoreSystem.java` — Simple bookstore / stock tracking example.
-- `src/ShoppingCartSystem.java` — Shopping cart and total calculation.
-- `src/TempConvert.java` — Temperature conversion (C/F/K) utilities.
-- `src/VotingSystem.java` — Small voting simulation and vote counting.
-- `src/InventortyManagementSystem.java` — Inventory management example (note: filename has a small typo).
-- `src/CityHospital/` — Hospital examples (patients, staff, doctors, nurses). Run: `java -cp out CityHospital.Main` after compiling to `out`.
-- `src/CityPublicLibrary/` — Library system (books, members, items). Run: `java -cp out CityPublicLibrary.Main` after compiling to `out`.
-- `src/ShopEasy/` — Product and digital-product examples. Run: `java -cp src ShopEasy.Main` (if top-level) or compile folder then run its `Main`.
-- `src/SmartRetailBillingSystem/src/` — Small billing system examples (Billable, Product, ElectronicItem, FoodItem). Run the `Main` inside that folder after compiling.
-- `src/UniversityCourseRegSystem/` — Course registration and student examples.
-- `src/VideoGameInventorySystem/` — Game inventory and weapon/item examples. Run: `java -cp out VideoGameInventorySystem.Main` after compiling to `out`.
+| File / Folder | What it implements | Related PDF (in CasePDF/) |
+|---|---|---|
+| `src/BasicBankingApplication.java` | Basic banking app (accounts, deposit/withdraw) | `case 1.pdf` |
+| `src/EmployeePayrollSystem.java` | Employee payroll & salary calculations | `case 2.pdf` |
+| `src/BookStoreSystem.java` | Bookstore inventory & stock tracking | `case 3.pdf` |
+| `src/ShoppingCartSystem.java` | Shopping cart and total calculation | `case 4.pdf` |
+| `src/TempConvert.java` | Temperature converter (C/F/K) | `case 5.pdf` |
+| `src/VotingSystem.java` | Voting simulation & vote counting | `case 6.pdf` |
+| `src/InventortyManagementSystem.java` | Inventory management (note: filename typo) | `case 7.pdf` |
+| `src/CityHospital/` | Hospital examples (patients, staff, doctors, nurses) | `Java OOP Inventory System Exam.pdf` |
+| `src/CityPublicLibrary/` | Library system (books, members, items) | `Sample Practical Paper - AY 26-27.pdf` |
+| `src/ShopEasy/` | Product & digital product examples | (no dedicated PDF) |
+| `src/SmartRetailBillingSystem/src/` | Billing system (Billable, Product types) | (no dedicated PDF) |
+| `src/UniversityCourseRegSystem/` | Course registration & student examples | `COU4300 PDS - All Questions with Answers.pdf` |
+| `src/VideoGameInventorySystem/` | Game inventory & weapon/item examples | (no dedicated PDF) |
 
-These are short, clear examples meant for students to read and modify. If a folder has a `package` declaration, compile with `-d out` and run using the package-qualified `Main` class as shown above.
+If an example uses `package`, compile with `javac -d out` and run the package-qualified `Main`. For top-level files, run `java -cp src MainClassName`.
